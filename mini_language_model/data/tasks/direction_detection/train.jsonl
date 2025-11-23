@@ -1,0 +1,140 @@
+{"input": "I GO LEFT", "task": "direction_detection", "label": "LEFT"}
+{"input": "YOU GO LEFT", "task": "direction_detection", "label": "LEFT"}
+{"input": "HERE", "task": "direction_detection", "label": "HERE"}
+{"input": "GO HERE", "task": "direction_detection", "label": "HERE"}
+{"input": "YES", "task": "direction_detection", "label": "NONE"}
+{"input": "RIGHT", "task": "direction_detection", "label": "RIGHT"}
+{"input": "NO", "task": "direction_detection", "label": "NONE"}
+{"input": "YOU GO RIGHT", "task": "direction_detection", "label": "RIGHT"}
+{"input": "TAKE RIGHT", "task": "direction_detection", "label": "RIGHT"}
+{"input": "I GIVE", "task": "direction_detection", "label": "NONE"}
+{"input": "YOU GO HERE", "task": "direction_detection", "label": "HERE"}
+{"input": "GO RIGHT", "task": "direction_detection", "label": "RIGHT"}
+{"input": "TAKE", "task": "direction_detection", "label": "NONE"}
+{"input": "TAKE", "task": "direction_detection", "label": "NONE"}
+{"input": "TAKE LEFT", "task": "direction_detection", "label": "LEFT"}
+{"input": "I GO HERE", "task": "direction_detection", "label": "HERE"}
+{"input": "YOU GO LEFT", "task": "direction_detection", "label": "LEFT"}
+{"input": "YOU GO LEFT", "task": "direction_detection", "label": "LEFT"}
+{"input": "TAKE HERE", "task": "direction_detection", "label": "HERE"}
+{"input": "HERE", "task": "direction_detection", "label": "HERE"}
+{"input": "GO LEFT", "task": "direction_detection", "label": "LEFT"}
+{"input": "GIVE", "task": "direction_detection", "label": "NONE"}
+{"input": "TAKE LEFT", "task": "direction_detection", "label": "LEFT"}
+{"input": "I GO RIGHT", "task": "direction_detection", "label": "RIGHT"}
+{"input": "GIVE", "task": "direction_detection", "label": "NONE"}
+{"input": "TAKE RIGHT", "task": "direction_detection", "label": "RIGHT"}
+{"input": "I GO LEFT", "task": "direction_detection", "label": "LEFT"}
+{"input": "GO LEFT", "task": "direction_detection", "label": "LEFT"}
+{"input": "I GO LEFT", "task": "direction_detection", "label": "LEFT"}
+{"input": "GO HERE", "task": "direction_detection", "label": "HERE"}
+{"input": "YES", "task": "direction_detection", "label": "NONE"}
+{"input": "TAKE", "task": "direction_detection", "label": "NONE"}
+{"input": "TAKE RIGHT", "task": "direction_detection", "label": "RIGHT"}
+{"input": "YOU GO LEFT", "task": "direction_detection", "label": "LEFT"}
+{"input": "HERE", "task": "direction_detection", "label": "HERE"}
+{"input": "YOU GO RIGHT", "task": "direction_detection", "label": "RIGHT"}
+{"input": "TAKE RIGHT", "task": "direction_detection", "label": "RIGHT"}
+{"input": "YOU GO HERE", "task": "direction_detection", "label": "HERE"}
+{"input": "I GO RIGHT", "task": "direction_detection", "label": "RIGHT"}
+{"input": "GIVE HERE", "task": "direction_detection", "label": "HERE"}
+{"input": "YOU GO RIGHT", "task": "direction_detection", "label": "RIGHT"}
+{"input": "GIVE HERE", "task": "direction_detection", "label": "HERE"}
+{"input": "YES", "task": "direction_detection", "label": "NONE"}
+{"input": "LEFT", "task": "direction_detection", "label": "LEFT"}
+{"input": "I GO HERE", "task": "direction_detection", "label": "HERE"}
+{"input": "GIVE", "task": "direction_detection", "label": "NONE"}
+{"input": "NO", "task": "direction_detection", "label": "NONE"}
+{"input": "TAKE", "task": "direction_detection", "label": "NONE"}
+{"input": "I GO LEFT", "task": "direction_detection", "label": "LEFT"}
+{"input": "YOU GO HERE", "task": "direction_detection", "label": "HERE"}
+{"input": "I GO HERE", "task": "direction_detection", "label": "HERE"}
+{"input": "TAKE RIGHT", "task": "direction_detection", "label": "RIGHT"}
+{"input": "RIGHT", "task": "direction_detection", "label": "RIGHT"}
+{"input": "GIVE", "task": "direction_detection", "label": "NONE"}
+{"input": "I GO RIGHT", "task": "direction_detection", "label": "RIGHT"}
+{"input": "GIVE HERE", "task": "direction_detection", "label": "HERE"}
+{"input": "GIVE", "task": "direction_detection", "label": "NONE"}
+{"input": "I GO LEFT", "task": "direction_detection", "label": "LEFT"}
+{"input": "GO LEFT", "task": "direction_detection", "label": "LEFT"}
+{"input": "NO", "task": "direction_detection", "label": "NONE"}
+{"input": "TAKE HERE", "task": "direction_detection", "label": "HERE"}
+{"input": "NO", "task": "direction_detection", "label": "NONE"}
+{"input": "I GO HERE", "task": "direction_detection", "label": "HERE"}
+{"input": "LEFT", "task": "direction_detection", "label": "LEFT"}
+{"input": "TAKE HERE", "task": "direction_detection", "label": "HERE"}
+{"input": "RIGHT", "task": "direction_detection", "label": "RIGHT"}
+{"input": "YOU GO HERE", "task": "direction_detection", "label": "HERE"}
+{"input": "LEFT", "task": "direction_detection", "label": "LEFT"}
+{"input": "GO RIGHT", "task": "direction_detection", "label": "RIGHT"}
+{"input": "NO", "task": "direction_detection", "label": "NONE"}
+{"input": "GO LEFT", "task": "direction_detection", "label": "LEFT"}
+{"input": "I GIVE", "task": "direction_detection", "label": "NONE"}
+{"input": "I GO RIGHT", "task": "direction_detection", "label": "RIGHT"}
+{"input": "HERE", "task": "direction_detection", "label": "HERE"}
+{"input": "GO HERE", "task": "direction_detection", "label": "HERE"}
+{"input": "NO", "task": "direction_detection", "label": "NONE"}
+{"input": "YES", "task": "direction_detection", "label": "NONE"}
+{"input": "YOU GO RIGHT", "task": "direction_detection", "label": "RIGHT"}
+{"input": "YOU GO LEFT", "task": "direction_detection", "label": "LEFT"}
+{"input": "TAKE RIGHT", "task": "direction_detection", "label": "RIGHT"}
+{"input": "YOU GO LEFT", "task": "direction_detection", "label": "LEFT"}
+{"input": "LEFT", "task": "direction_detection", "label": "LEFT"}
+{"input": "YOU TAKE", "task": "direction_detection", "label": "NONE"}
+{"input": "GIVE HERE", "task": "direction_detection", "label": "HERE"}
+{"input": "GIVE HERE", "task": "direction_detection", "label": "HERE"}
+{"input": "GO HERE", "task": "direction_detection", "label": "HERE"}
+{"input": "YOU GO HERE", "task": "direction_detection", "label": "HERE"}
+{"input": "GO LEFT", "task": "direction_detection", "label": "LEFT"}
+{"input": "YES", "task": "direction_detection", "label": "NONE"}
+{"input": "GO LEFT", "task": "direction_detection", "label": "LEFT"}
+{"input": "GIVE", "task": "direction_detection", "label": "NONE"}
+{"input": "I GO RIGHT", "task": "direction_detection", "label": "RIGHT"}
+{"input": "GIVE HERE", "task": "direction_detection", "label": "HERE"}
+{"input": "GIVE", "task": "direction_detection", "label": "NONE"}
+{"input": "YOU GO RIGHT", "task": "direction_detection", "label": "RIGHT"}
+{"input": "GIVE", "task": "direction_detection", "label": "NONE"}
+{"input": "GO RIGHT", "task": "direction_detection", "label": "RIGHT"}
+{"input": "I GO RIGHT", "task": "direction_detection", "label": "RIGHT"}
+{"input": "HERE", "task": "direction_detection", "label": "HERE"}
+{"input": "I GO LEFT", "task": "direction_detection", "label": "LEFT"}
+{"input": "YOU GO RIGHT", "task": "direction_detection", "label": "RIGHT"}
+{"input": "TAKE HERE", "task": "direction_detection", "label": "HERE"}
+{"input": "HERE", "task": "direction_detection", "label": "HERE"}
+{"input": "YOU TAKE", "task": "direction_detection", "label": "NONE"}
+{"input": "TAKE LEFT", "task": "direction_detection", "label": "LEFT"}
+{"input": "GIVE HERE", "task": "direction_detection", "label": "HERE"}
+{"input": "GO LEFT", "task": "direction_detection", "label": "LEFT"}
+{"input": "GO RIGHT", "task": "direction_detection", "label": "RIGHT"}
+{"input": "I GIVE", "task": "direction_detection", "label": "NONE"}
+{"input": "LEFT", "task": "direction_detection", "label": "LEFT"}
+{"input": "YOU GO LEFT", "task": "direction_detection", "label": "LEFT"}
+{"input": "NO", "task": "direction_detection", "label": "NONE"}
+{"input": "YOU GO HERE", "task": "direction_detection", "label": "HERE"}
+{"input": "TAKE HERE", "task": "direction_detection", "label": "HERE"}
+{"input": "GO HERE", "task": "direction_detection", "label": "HERE"}
+{"input": "GO LEFT", "task": "direction_detection", "label": "LEFT"}
+{"input": "YES", "task": "direction_detection", "label": "NONE"}
+{"input": "NO", "task": "direction_detection", "label": "NONE"}
+{"input": "I GO LEFT", "task": "direction_detection", "label": "LEFT"}
+{"input": "I GO RIGHT", "task": "direction_detection", "label": "RIGHT"}
+{"input": "GIVE HERE", "task": "direction_detection", "label": "HERE"}
+{"input": "YOU TAKE", "task": "direction_detection", "label": "NONE"}
+{"input": "TAKE LEFT", "task": "direction_detection", "label": "LEFT"}
+{"input": "TAKE LEFT", "task": "direction_detection", "label": "LEFT"}
+{"input": "HERE", "task": "direction_detection", "label": "HERE"}
+{"input": "LEFT", "task": "direction_detection", "label": "LEFT"}
+{"input": "TAKE RIGHT", "task": "direction_detection", "label": "RIGHT"}
+{"input": "I GO RIGHT", "task": "direction_detection", "label": "RIGHT"}
+{"input": "GO HERE", "task": "direction_detection", "label": "HERE"}
+{"input": "GO LEFT", "task": "direction_detection", "label": "LEFT"}
+{"input": "YOU GO RIGHT", "task": "direction_detection", "label": "RIGHT"}
+{"input": "GO RIGHT", "task": "direction_detection", "label": "RIGHT"}
+{"input": "YOU GO RIGHT", "task": "direction_detection", "label": "RIGHT"}
+{"input": "GO LEFT", "task": "direction_detection", "label": "LEFT"}
+{"input": "GIVE HERE", "task": "direction_detection", "label": "HERE"}
+{"input": "GIVE", "task": "direction_detection", "label": "NONE"}
+{"input": "I GO RIGHT", "task": "direction_detection", "label": "RIGHT"}
+{"input": "GO LEFT", "task": "direction_detection", "label": "LEFT"}
+{"input": "NO", "task": "direction_detection", "label": "NONE"}
+{"input": "RIGHT", "task": "direction_detection", "label": "RIGHT"}

@@ -1,0 +1,28 @@
+{"input": "I GIVE", "task": "response_generation", "label": "YOU_TAKE"}
+{"input": "TAKE HERE", "task": "response_generation", "label": "YES"}
+{"input": "YOU GO LEFT", "task": "response_generation", "label": "I_GO_LEFT"}
+{"input": "YOU GIVE", "task": "response_generation", "label": "I_TAKE"}
+{"input": "I GIVE", "task": "response_generation", "label": "YOU_TAKE"}
+{"input": "I HERE", "task": "response_generation", "label": "SILENT"}
+{"input": "TAKE HERE", "task": "response_generation", "label": "YES"}
+{"input": "YOU GO LEFT", "task": "response_generation", "label": "I_GO_LEFT"}
+{"input": "YOU GO LEFT", "task": "response_generation", "label": "I_GO_LEFT"}
+{"input": "I TAKE", "task": "response_generation", "label": "YOU_GIVE"}
+{"input": "YOU GO RIGHT", "task": "response_generation", "label": "I_GO_RIGHT"}
+{"input": "YOU TAKE", "task": "response_generation", "label": "I_GIVE"}
+{"input": "I HERE", "task": "response_generation", "label": "SILENT"}
+{"input": "TAKE HERE", "task": "response_generation", "label": "YES"}
+{"input": "GIVE HERE", "task": "response_generation", "label": "NO"}
+{"input": "YOU GO RIGHT", "task": "response_generation", "label": "I_GO_RIGHT"}
+{"input": "I TAKE", "task": "response_generation", "label": "YOU_GIVE"}
+{"input": "YOU GO RIGHT", "task": "response_generation", "label": "I_GO_RIGHT"}
+{"input": "YOU GO RIGHT", "task": "response_generation", "label": "I_GO_RIGHT"}
+{"input": "YOU GO RIGHT", "task": "response_generation", "label": "I_GO_RIGHT"}
+{"input": "I GIVE", "task": "response_generation", "label": "YOU_TAKE"}
+{"input": "I GIVE", "task": "response_generation", "label": "YOU_TAKE"}
+{"input": "I GIVE", "task": "response_generation", "label": "YOU_TAKE"}
+{"input": "I TAKE", "task": "response_generation", "label": "YOU_GIVE"}
+{"input": "YOU TAKE", "task": "response_generation", "label": "I_GIVE"}
+{"input": "GO LEFT", "task": "response_generation", "label": "YES"}
+{"input": "YOU TAKE", "task": "response_generation", "label": "I_GIVE"}
+{"input": "YOU GIVE", "task": "response_generation", "label": "I_TAKE"}

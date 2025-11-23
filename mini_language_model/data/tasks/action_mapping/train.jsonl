@@ -1,0 +1,138 @@
+{"input": "I TAKE", "task": "action_mapping", "label": "TAKE_ITEM"}
+{"input": "YOU GO HERE", "task": "action_mapping", "label": "MOVE_HERE"}
+{"input": "GO RIGHT", "task": "action_mapping", "label": "MOVE_RIGHT"}
+{"input": "GO LEFT", "task": "action_mapping", "label": "MOVE_LEFT"}
+{"input": "HERE", "task": "action_mapping", "label": "STAY"}
+{"input": "I HERE", "task": "action_mapping", "label": "STAY"}
+{"input": "YOU TAKE", "task": "action_mapping", "label": "TAKE_ITEM"}
+{"input": "HERE", "task": "action_mapping", "label": "STAY"}
+{"input": "GIVE", "task": "action_mapping", "label": "GIVE_ITEM"}
+{"input": "GIVE HERE", "task": "action_mapping", "label": "GIVE_ITEM"}
+{"input": "YOU GO HERE", "task": "action_mapping", "label": "MOVE_HERE"}
+{"input": "I TAKE", "task": "action_mapping", "label": "TAKE_ITEM"}
+{"input": "YOU GO HERE", "task": "action_mapping", "label": "MOVE_HERE"}
+{"input": "GIVE", "task": "action_mapping", "label": "GIVE_ITEM"}
+{"input": "I TAKE", "task": "action_mapping", "label": "TAKE_ITEM"}
+{"input": "I GIVE", "task": "action_mapping", "label": "GIVE_ITEM"}
+{"input": "GIVE", "task": "action_mapping", "label": "GIVE_ITEM"}
+{"input": "TAKE HERE", "task": "action_mapping", "label": "TAKE_ITEM"}
+{"input": "GO LEFT", "task": "action_mapping", "label": "MOVE_LEFT"}
+{"input": "I GO LEFT", "task": "action_mapping", "label": "MOVE_LEFT"}
+{"input": "GO LEFT", "task": "action_mapping", "label": "MOVE_LEFT"}
+{"input": "YOU GO RIGHT", "task": "action_mapping", "label": "MOVE_RIGHT"}
+{"input": "HERE", "task": "action_mapping", "label": "STAY"}
+{"input": "YOU GO RIGHT", "task": "action_mapping", "label": "MOVE_RIGHT"}
+{"input": "I GO RIGHT", "task": "action_mapping", "label": "MOVE_RIGHT"}
+{"input": "I GO RIGHT", "task": "action_mapping", "label": "MOVE_RIGHT"}
+{"input": "HERE", "task": "action_mapping", "label": "STAY"}
+{"input": "YOU GIVE", "task": "action_mapping", "label": "GIVE_ITEM"}
+{"input": "I GO LEFT", "task": "action_mapping", "label": "MOVE_LEFT"}
+{"input": "GO HERE", "task": "action_mapping", "label": "MOVE_HERE"}
+{"input": "I GO HERE", "task": "action_mapping", "label": "MOVE_HERE"}
+{"input": "YOU GO HERE", "task": "action_mapping", "label": "MOVE_HERE"}
+{"input": "YOU GO HERE", "task": "action_mapping", "label": "MOVE_HERE"}
+{"input": "YOU GO LEFT", "task": "action_mapping", "label": "MOVE_LEFT"}
+{"input": "GO HERE", "task": "action_mapping", "label": "MOVE_HERE"}
+{"input": "GIVE", "task": "action_mapping", "label": "GIVE_ITEM"}
+{"input": "TAKE", "task": "action_mapping", "label": "TAKE_ITEM"}
+{"input": "YOU GIVE", "task": "action_mapping", "label": "GIVE_ITEM"}
+{"input": "YOU GIVE", "task": "action_mapping", "label": "GIVE_ITEM"}
+{"input": "GIVE HERE", "task": "action_mapping", "label": "GIVE_ITEM"}
+{"input": "TAKE", "task": "action_mapping", "label": "TAKE_ITEM"}
+{"input": "YOU GO LEFT", "task": "action_mapping", "label": "MOVE_LEFT"}
+{"input": "YOU HERE", "task": "action_mapping", "label": "STAY"}
+{"input": "YOU TAKE", "task": "action_mapping", "label": "TAKE_ITEM"}
+{"input": "I TAKE", "task": "action_mapping", "label": "TAKE_ITEM"}
+{"input": "YOU GO HERE", "task": "action_mapping", "label": "MOVE_HERE"}
+{"input": "TAKE", "task": "action_mapping", "label": "TAKE_ITEM"}
+{"input": "I GO HERE", "task": "action_mapping", "label": "MOVE_HERE"}
+{"input": "YOU HERE", "task": "action_mapping", "label": "STAY"}
+{"input": "GO RIGHT", "task": "action_mapping", "label": "MOVE_RIGHT"}
+{"input": "I TAKE", "task": "action_mapping", "label": "TAKE_ITEM"}
+{"input": "I HERE", "task": "action_mapping", "label": "STAY"}
+{"input": "TAKE HERE", "task": "action_mapping", "label": "TAKE_ITEM"}
+{"input": "YOU GIVE", "task": "action_mapping", "label": "GIVE_ITEM"}
+{"input": "GO HERE", "task": "action_mapping", "label": "MOVE_HERE"}
+{"input": "YOU GIVE", "task": "action_mapping", "label": "GIVE_ITEM"}
+{"input": "GO RIGHT", "task": "action_mapping", "label": "MOVE_RIGHT"}
+{"input": "YOU GO HERE", "task": "action_mapping", "label": "MOVE_HERE"}
+{"input": "GIVE HERE", "task": "action_mapping", "label": "GIVE_ITEM"}
+{"input": "I GO LEFT", "task": "action_mapping", "label": "MOVE_LEFT"}
+{"input": "YOU TAKE", "task": "action_mapping", "label": "TAKE_ITEM"}
+{"input": "YOU TAKE", "task": "action_mapping", "label": "TAKE_ITEM"}
+{"input": "I GIVE", "task": "action_mapping", "label": "GIVE_ITEM"}
+{"input": "I GO HERE", "task": "action_mapping", "label": "MOVE_HERE"}
+{"input": "GO HERE", "task": "action_mapping", "label": "MOVE_HERE"}
+{"input": "TAKE", "task": "action_mapping", "label": "TAKE_ITEM"}
+{"input": "YOU HERE", "task": "action_mapping", "label": "STAY"}
+{"input": "I GO RIGHT", "task": "action_mapping", "label": "MOVE_RIGHT"}
+{"input": "I GO RIGHT", "task": "action_mapping", "label": "MOVE_RIGHT"}
+{"input": "I GIVE", "task": "action_mapping", "label": "GIVE_ITEM"}
+{"input": "YOU GO RIGHT", "task": "action_mapping", "label": "MOVE_RIGHT"}
+{"input": "YOU TAKE", "task": "action_mapping", "label": "TAKE_ITEM"}
+{"input": "I TAKE", "task": "action_mapping", "label": "TAKE_ITEM"}
+{"input": "GIVE HERE", "task": "action_mapping", "label": "GIVE_ITEM"}
+{"input": "GIVE HERE", "task": "action_mapping", "label": "GIVE_ITEM"}
+{"input": "I GO RIGHT", "task": "action_mapping", "label": "MOVE_RIGHT"}
+{"input": "YOU TAKE", "task": "action_mapping", "label": "TAKE_ITEM"}
+{"input": "GO LEFT", "task": "action_mapping", "label": "MOVE_LEFT"}
+{"input": "GO RIGHT", "task": "action_mapping", "label": "MOVE_RIGHT"}
+{"input": "I TAKE", "task": "action_mapping", "label": "TAKE_ITEM"}
+{"input": "GO HERE", "task": "action_mapping", "label": "MOVE_HERE"}
+{"input": "YOU HERE", "task": "action_mapping", "label": "STAY"}
+{"input": "GO RIGHT", "task": "action_mapping", "label": "MOVE_RIGHT"}
+{"input": "I GIVE", "task": "action_mapping", "label": "GIVE_ITEM"}
+{"input": "GIVE HERE", "task": "action_mapping", "label": "GIVE_ITEM"}
+{"input": "I HERE", "task": "action_mapping", "label": "STAY"}
+{"input": "GO LEFT", "task": "action_mapping", "label": "MOVE_LEFT"}
+{"input": "HERE", "task": "action_mapping", "label": "STAY"}
+{"input": "YOU GO HERE", "task": "action_mapping", "label": "MOVE_HERE"}
+{"input": "GIVE HERE", "task": "action_mapping", "label": "GIVE_ITEM"}
+{"input": "HERE", "task": "action_mapping", "label": "STAY"}
+{"input": "YOU GIVE", "task": "action_mapping", "label": "GIVE_ITEM"}
+{"input": "I GO HERE", "task": "action_mapping", "label": "MOVE_HERE"}
+{"input": "HERE", "task": "action_mapping", "label": "STAY"}
+{"input": "GO LEFT", "task": "action_mapping", "label": "MOVE_LEFT"}
+{"input": "YOU HERE", "task": "action_mapping", "label": "STAY"}
+{"input": "YOU GIVE", "task": "action_mapping", "label": "GIVE_ITEM"}
+{"input": "YOU GO RIGHT", "task": "action_mapping", "label": "MOVE_RIGHT"}
+{"input": "I GO LEFT", "task": "action_mapping", "label": "MOVE_LEFT"}
+{"input": "TAKE HERE", "task": "action_mapping", "label": "TAKE_ITEM"}
+{"input": "I GO LEFT", "task": "action_mapping", "label": "MOVE_LEFT"}
+{"input": "I GO HERE", "task": "action_mapping", "label": "MOVE_HERE"}
+{"input": "GIVE", "task": "action_mapping", "label": "GIVE_ITEM"}
+{"input": "YOU GO RIGHT", "task": "action_mapping", "label": "MOVE_RIGHT"}
+{"input": "TAKE", "task": "action_mapping", "label": "TAKE_ITEM"}
+{"input": "GO LEFT", "task": "action_mapping", "label": "MOVE_LEFT"}
+{"input": "GO RIGHT", "task": "action_mapping", "label": "MOVE_RIGHT"}
+{"input": "I HERE", "task": "action_mapping", "label": "STAY"}
+{"input": "YOU GO RIGHT", "task": "action_mapping", "label": "MOVE_RIGHT"}
+{"input": "I GO LEFT", "task": "action_mapping", "label": "MOVE_LEFT"}
+{"input": "I TAKE", "task": "action_mapping", "label": "TAKE_ITEM"}
+{"input": "I GO LEFT", "task": "action_mapping", "label": "MOVE_LEFT"}
+{"input": "I GO LEFT", "task": "action_mapping", "label": "MOVE_LEFT"}
+{"input": "TAKE", "task": "action_mapping", "label": "TAKE_ITEM"}
+{"input": "YOU HERE", "task": "action_mapping", "label": "STAY"}
+{"input": "I GO LEFT", "task": "action_mapping", "label": "MOVE_LEFT"}
+{"input": "TAKE HERE", "task": "action_mapping", "label": "TAKE_ITEM"}
+{"input": "YOU GO LEFT", "task": "action_mapping", "label": "MOVE_LEFT"}
+{"input": "GO LEFT", "task": "action_mapping", "label": "MOVE_LEFT"}
+{"input": "I TAKE", "task": "action_mapping", "label": "TAKE_ITEM"}
+{"input": "YOU GIVE", "task": "action_mapping", "label": "GIVE_ITEM"}
+{"input": "TAKE", "task": "action_mapping", "label": "TAKE_ITEM"}
+{"input": "I HERE", "task": "action_mapping", "label": "STAY"}
+{"input": "GO LEFT", "task": "action_mapping", "label": "MOVE_LEFT"}
+{"input": "I GO RIGHT", "task": "action_mapping", "label": "MOVE_RIGHT"}
+{"input": "TAKE HERE", "task": "action_mapping", "label": "TAKE_ITEM"}
+{"input": "I GIVE", "task": "action_mapping", "label": "GIVE_ITEM"}
+{"input": "GO HERE", "task": "action_mapping", "label": "MOVE_HERE"}
+{"input": "GO LEFT", "task": "action_mapping", "label": "MOVE_LEFT"}
+{"input": "YOU GO HERE", "task": "action_mapping", "label": "MOVE_HERE"}
+{"input": "I GIVE", "task": "action_mapping", "label": "GIVE_ITEM"}
+{"input": "YOU HERE", "task": "action_mapping", "label": "STAY"}
+{"input": "I GIVE", "task": "action_mapping", "label": "GIVE_ITEM"}
+{"input": "GO LEFT", "task": "action_mapping", "label": "MOVE_LEFT"}
+{"input": "HERE", "task": "action_mapping", "label": "STAY"}
+{"input": "GIVE HERE", "task": "action_mapping", "label": "GIVE_ITEM"}
+{"input": "GO RIGHT", "task": "action_mapping", "label": "MOVE_RIGHT"}
+{"input": "YOU TAKE", "task": "action_mapping", "label": "TAKE_ITEM"}

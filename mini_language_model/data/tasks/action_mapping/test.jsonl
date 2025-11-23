@@ -1,0 +1,31 @@
+{"input": "YOU GO RIGHT", "task": "action_mapping", "label": "MOVE_RIGHT"}
+{"input": "GIVE", "task": "action_mapping", "label": "GIVE_ITEM"}
+{"input": "YOU GO LEFT", "task": "action_mapping", "label": "MOVE_LEFT"}
+{"input": "HERE", "task": "action_mapping", "label": "STAY"}
+{"input": "I HERE", "task": "action_mapping", "label": "STAY"}
+{"input": "YOU HERE", "task": "action_mapping", "label": "STAY"}
+{"input": "I HERE", "task": "action_mapping", "label": "STAY"}
+{"input": "YOU GO RIGHT", "task": "action_mapping", "label": "MOVE_RIGHT"}
+{"input": "I GO HERE", "task": "action_mapping", "label": "MOVE_HERE"}
+{"input": "YOU HERE", "task": "action_mapping", "label": "STAY"}
+{"input": "YOU GIVE", "task": "action_mapping", "label": "GIVE_ITEM"}
+{"input": "I GO LEFT", "task": "action_mapping", "label": "MOVE_LEFT"}
+{"input": "I GIVE", "task": "action_mapping", "label": "GIVE_ITEM"}
+{"input": "YOU HERE", "task": "action_mapping", "label": "STAY"}
+{"input": "I TAKE", "task": "action_mapping", "label": "TAKE_ITEM"}
+{"input": "I GO LEFT", "task": "action_mapping", "label": "MOVE_LEFT"}
+{"input": "I GO HERE", "task": "action_mapping", "label": "MOVE_HERE"}
+{"input": "I GO LEFT", "task": "action_mapping", "label": "MOVE_LEFT"}
+{"input": "GO LEFT", "task": "action_mapping", "label": "MOVE_LEFT"}
+{"input": "GO LEFT", "task": "action_mapping", "label": "MOVE_LEFT"}
+{"input": "YOU GO RIGHT", "task": "action_mapping", "label": "MOVE_RIGHT"}
+{"input": "GO HERE", "task": "action_mapping", "label": "MOVE_HERE"}
+{"input": "GO LEFT", "task": "action_mapping", "label": "MOVE_LEFT"}
+{"input": "I GO HERE", "task": "action_mapping", "label": "MOVE_HERE"}
+{"input": "YOU GIVE", "task": "action_mapping", "label": "GIVE_ITEM"}
+{"input": "TAKE", "task": "action_mapping", "label": "TAKE_ITEM"}
+{"input": "GO HERE", "task": "action_mapping", "label": "MOVE_HERE"}
+{"input": "GO RIGHT", "task": "action_mapping", "label": "MOVE_RIGHT"}
+{"input": "I GO HERE", "task": "action_mapping", "label": "MOVE_HERE"}
+{"input": "YOU GO RIGHT", "task": "action_mapping", "label": "MOVE_RIGHT"}
+{"input": "I GO LEFT", "task": "action_mapping", "label": "MOVE_LEFT"}

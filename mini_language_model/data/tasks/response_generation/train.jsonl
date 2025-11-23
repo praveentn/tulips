@@ -1,0 +1,134 @@
+{"input": "HERE", "task": "response_generation", "label": "SILENT"}
+{"input": "GO RIGHT", "task": "response_generation", "label": "YES"}
+{"input": "YOU GO LEFT", "task": "response_generation", "label": "I_GO_LEFT"}
+{"input": "I HERE", "task": "response_generation", "label": "SILENT"}
+{"input": "I HERE", "task": "response_generation", "label": "SILENT"}
+{"input": "YOU GO RIGHT", "task": "response_generation", "label": "I_GO_RIGHT"}
+{"input": "GO LEFT", "task": "response_generation", "label": "YES"}
+{"input": "HERE", "task": "response_generation", "label": "SILENT"}
+{"input": "YOU TAKE", "task": "response_generation", "label": "I_GIVE"}
+{"input": "I TAKE", "task": "response_generation", "label": "YOU_GIVE"}
+{"input": "GIVE HERE", "task": "response_generation", "label": "NO"}
+{"input": "YOU GO RIGHT", "task": "response_generation", "label": "I_GO_RIGHT"}
+{"input": "GIVE HERE", "task": "response_generation", "label": "NO"}
+{"input": "YOU GO LEFT", "task": "response_generation", "label": "I_GO_LEFT"}
+{"input": "I GIVE", "task": "response_generation", "label": "YOU_TAKE"}
+{"input": "YOU GO LEFT", "task": "response_generation", "label": "I_GO_LEFT"}
+{"input": "HERE", "task": "response_generation", "label": "SILENT"}
+{"input": "I HERE", "task": "response_generation", "label": "SILENT"}
+{"input": "YOU GO RIGHT", "task": "response_generation", "label": "I_GO_RIGHT"}
+{"input": "I HERE", "task": "response_generation", "label": "SILENT"}
+{"input": "YOU GO LEFT", "task": "response_generation", "label": "I_GO_LEFT"}
+{"input": "I TAKE", "task": "response_generation", "label": "YOU_GIVE"}
+{"input": "GO RIGHT", "task": "response_generation", "label": "YES"}
+{"input": "GO LEFT", "task": "response_generation", "label": "YES"}
+{"input": "YOU GO RIGHT", "task": "response_generation", "label": "I_GO_RIGHT"}
+{"input": "YOU TAKE", "task": "response_generation", "label": "I_GIVE"}
+{"input": "TAKE HERE", "task": "response_generation", "label": "YES"}
+{"input": "GIVE HERE", "task": "response_generation", "label": "NO"}
+{"input": "GO RIGHT", "task": "response_generation", "label": "YES"}
+{"input": "I TAKE", "task": "response_generation", "label": "YOU_GIVE"}
+{"input": "YOU GIVE", "task": "response_generation", "label": "I_TAKE"}
+{"input": "HERE", "task": "response_generation", "label": "SILENT"}
+{"input": "YOU GIVE", "task": "response_generation", "label": "I_TAKE"}
+{"input": "I TAKE", "task": "response_generation", "label": "YOU_GIVE"}
+{"input": "GO RIGHT", "task": "response_generation", "label": "YES"}
+{"input": "YOU GO RIGHT", "task": "response_generation", "label": "I_GO_RIGHT"}
+{"input": "I GIVE", "task": "response_generation", "label": "YOU_TAKE"}
+{"input": "I TAKE", "task": "response_generation", "label": "YOU_GIVE"}
+{"input": "YOU GO LEFT", "task": "response_generation", "label": "I_GO_LEFT"}
+{"input": "GO LEFT", "task": "response_generation", "label": "YES"}
+{"input": "GIVE HERE", "task": "response_generation", "label": "NO"}
+{"input": "YOU GIVE", "task": "response_generation", "label": "I_TAKE"}
+{"input": "YOU GO RIGHT", "task": "response_generation", "label": "I_GO_RIGHT"}
+{"input": "YOU GIVE", "task": "response_generation", "label": "I_TAKE"}
+{"input": "I TAKE", "task": "response_generation", "label": "YOU_GIVE"}
+{"input": "GO RIGHT", "task": "response_generation", "label": "YES"}
+{"input": "I GIVE", "task": "response_generation", "label": "YOU_TAKE"}
+{"input": "GO LEFT", "task": "response_generation", "label": "YES"}
+{"input": "I TAKE", "task": "response_generation", "label": "YOU_GIVE"}
+{"input": "YOU GIVE", "task": "response_generation", "label": "I_TAKE"}
+{"input": "HERE", "task": "response_generation", "label": "SILENT"}
+{"input": "YOU GIVE", "task": "response_generation", "label": "I_TAKE"}
+{"input": "GIVE HERE", "task": "response_generation", "label": "NO"}
+{"input": "GO LEFT", "task": "response_generation", "label": "YES"}
+{"input": "I HERE", "task": "response_generation", "label": "SILENT"}
+{"input": "I HERE", "task": "response_generation", "label": "SILENT"}
+{"input": "I GIVE", "task": "response_generation", "label": "YOU_TAKE"}
+{"input": "HERE", "task": "response_generation", "label": "SILENT"}
+{"input": "GO LEFT", "task": "response_generation", "label": "YES"}
+{"input": "YOU GO LEFT", "task": "response_generation", "label": "I_GO_LEFT"}
+{"input": "GIVE HERE", "task": "response_generation", "label": "NO"}
+{"input": "GO LEFT", "task": "response_generation", "label": "YES"}
+{"input": "YOU TAKE", "task": "response_generation", "label": "I_GIVE"}
+{"input": "GO RIGHT", "task": "response_generation", "label": "YES"}
+{"input": "YOU GIVE", "task": "response_generation", "label": "I_TAKE"}
+{"input": "HERE", "task": "response_generation", "label": "SILENT"}
+{"input": "I HERE", "task": "response_generation", "label": "SILENT"}
+{"input": "GIVE HERE", "task": "response_generation", "label": "NO"}
+{"input": "GIVE HERE", "task": "response_generation", "label": "NO"}
+{"input": "YOU GO LEFT", "task": "response_generation", "label": "I_GO_LEFT"}
+{"input": "GIVE HERE", "task": "response_generation", "label": "NO"}
+{"input": "I HERE", "task": "response_generation", "label": "SILENT"}
+{"input": "TAKE HERE", "task": "response_generation", "label": "YES"}
+{"input": "I GIVE", "task": "response_generation", "label": "YOU_TAKE"}
+{"input": "TAKE HERE", "task": "response_generation", "label": "YES"}
+{"input": "I TAKE", "task": "response_generation", "label": "YOU_GIVE"}
+{"input": "HERE", "task": "response_generation", "label": "SILENT"}
+{"input": "I TAKE", "task": "response_generation", "label": "YOU_GIVE"}
+{"input": "I HERE", "task": "response_generation", "label": "SILENT"}
+{"input": "HERE", "task": "response_generation", "label": "SILENT"}
+{"input": "TAKE HERE", "task": "response_generation", "label": "YES"}
+{"input": "GIVE HERE", "task": "response_generation", "label": "NO"}
+{"input": "TAKE HERE", "task": "response_generation", "label": "YES"}
+{"input": "I GIVE", "task": "response_generation", "label": "YOU_TAKE"}
+{"input": "GO RIGHT", "task": "response_generation", "label": "YES"}
+{"input": "I GIVE", "task": "response_generation", "label": "YOU_TAKE"}
+{"input": "GO LEFT", "task": "response_generation", "label": "YES"}
+{"input": "TAKE HERE", "task": "response_generation", "label": "YES"}
+{"input": "YOU TAKE", "task": "response_generation", "label": "I_GIVE"}
+{"input": "HERE", "task": "response_generation", "label": "SILENT"}
+{"input": "YOU GIVE", "task": "response_generation", "label": "I_TAKE"}
+{"input": "GO RIGHT", "task": "response_generation", "label": "YES"}
+{"input": "YOU GO LEFT", "task": "response_generation", "label": "I_GO_LEFT"}
+{"input": "GO RIGHT", "task": "response_generation", "label": "YES"}
+{"input": "I HERE", "task": "response_generation", "label": "SILENT"}
+{"input": "YOU GIVE", "task": "response_generation", "label": "I_TAKE"}
+{"input": "HERE", "task": "response_generation", "label": "SILENT"}
+{"input": "GO RIGHT", "task": "response_generation", "label": "YES"}
+{"input": "YOU GO LEFT", "task": "response_generation", "label": "I_GO_LEFT"}
+{"input": "I HERE", "task": "response_generation", "label": "SILENT"}
+{"input": "GO RIGHT", "task": "response_generation", "label": "YES"}
+{"input": "GIVE HERE", "task": "response_generation", "label": "NO"}
+{"input": "YOU GO RIGHT", "task": "response_generation", "label": "I_GO_RIGHT"}
+{"input": "HERE", "task": "response_generation", "label": "SILENT"}
+{"input": "YOU TAKE", "task": "response_generation", "label": "I_GIVE"}
+{"input": "GO RIGHT", "task": "response_generation", "label": "YES"}
+{"input": "YOU GIVE", "task": "response_generation", "label": "I_TAKE"}
+{"input": "YOU TAKE", "task": "response_generation", "label": "I_GIVE"}
+{"input": "HERE", "task": "response_generation", "label": "SILENT"}
+{"input": "TAKE HERE", "task": "response_generation", "label": "YES"}
+{"input": "TAKE HERE", "task": "response_generation", "label": "YES"}
+{"input": "YOU TAKE", "task": "response_generation", "label": "I_GIVE"}
+{"input": "HERE", "task": "response_generation", "label": "SILENT"}
+{"input": "I GIVE", "task": "response_generation", "label": "YOU_TAKE"}
+{"input": "YOU GIVE", "task": "response_generation", "label": "I_TAKE"}
+{"input": "GO RIGHT", "task": "response_generation", "label": "YES"}
+{"input": "I TAKE", "task": "response_generation", "label": "YOU_GIVE"}
+{"input": "YOU GO RIGHT", "task": "response_generation", "label": "I_GO_RIGHT"}
+{"input": "YOU TAKE", "task": "response_generation", "label": "I_GIVE"}
+{"input": "GO RIGHT", "task": "response_generation", "label": "YES"}
+{"input": "YOU TAKE", "task": "response_generation", "label": "I_GIVE"}
+{"input": "YOU GIVE", "task": "response_generation", "label": "I_TAKE"}
+{"input": "HERE", "task": "response_generation", "label": "SILENT"}
+{"input": "I HERE", "task": "response_generation", "label": "SILENT"}
+{"input": "GO LEFT", "task": "response_generation", "label": "YES"}
+{"input": "GO LEFT", "task": "response_generation", "label": "YES"}
+{"input": "TAKE HERE", "task": "response_generation", "label": "YES"}
+{"input": "GO LEFT", "task": "response_generation", "label": "YES"}
+{"input": "YOU GO LEFT", "task": "response_generation", "label": "I_GO_LEFT"}
+{"input": "HERE", "task": "response_generation", "label": "SILENT"}
+{"input": "GIVE HERE", "task": "response_generation", "label": "NO"}
+{"input": "I TAKE", "task": "response_generation", "label": "YOU_GIVE"}
+{"input": "I GIVE", "task": "response_generation", "label": "YOU_TAKE"}
+{"input": "YOU GO RIGHT", "task": "response_generation", "label": "I_GO_RIGHT"}

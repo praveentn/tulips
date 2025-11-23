@@ -1,0 +1,30 @@
+{"input": "HERE", "task": "direction_detection", "label": "HERE"}
+{"input": "HERE", "task": "direction_detection", "label": "HERE"}
+{"input": "YOU GO RIGHT", "task": "direction_detection", "label": "RIGHT"}
+{"input": "I GIVE", "task": "direction_detection", "label": "NONE"}
+{"input": "I GO LEFT", "task": "direction_detection", "label": "LEFT"}
+{"input": "I GO HERE", "task": "direction_detection", "label": "HERE"}
+{"input": "TAKE HERE", "task": "direction_detection", "label": "HERE"}
+{"input": "TAKE", "task": "direction_detection", "label": "NONE"}
+{"input": "RIGHT", "task": "direction_detection", "label": "RIGHT"}
+{"input": "I GO HERE", "task": "direction_detection", "label": "HERE"}
+{"input": "YES", "task": "direction_detection", "label": "NONE"}
+{"input": "TAKE HERE", "task": "direction_detection", "label": "HERE"}
+{"input": "LEFT", "task": "direction_detection", "label": "LEFT"}
+{"input": "TAKE", "task": "direction_detection", "label": "NONE"}
+{"input": "YES", "task": "direction_detection", "label": "NONE"}
+{"input": "TAKE HERE", "task": "direction_detection", "label": "HERE"}
+{"input": "I GIVE", "task": "direction_detection", "label": "NONE"}
+{"input": "GIVE", "task": "direction_detection", "label": "NONE"}
+{"input": "GO RIGHT", "task": "direction_detection", "label": "RIGHT"}
+{"input": "YOU GO RIGHT", "task": "direction_detection", "label": "RIGHT"}
+{"input": "I GO RIGHT", "task": "direction_detection", "label": "RIGHT"}
+{"input": "GO LEFT", "task": "direction_detection", "label": "LEFT"}
+{"input": "YOU GO RIGHT", "task": "direction_detection", "label": "RIGHT"}
+{"input": "YOU GO RIGHT", "task": "direction_detection", "label": "RIGHT"}
+{"input": "TAKE RIGHT", "task": "direction_detection", "label": "RIGHT"}
+{"input": "GO HERE", "task": "direction_detection", "label": "HERE"}
+{"input": "YOU GO RIGHT", "task": "direction_detection", "label": "RIGHT"}
+{"input": "YOU GO LEFT", "task": "direction_detection", "label": "LEFT"}
+{"input": "I GO RIGHT", "task": "direction_detection", "label": "RIGHT"}
+{"input": "LEFT", "task": "direction_detection", "label": "LEFT"}

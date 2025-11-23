@@ -1,0 +1,140 @@
+{"input": "YOU GIVE", "task": "intent_classification", "label": "COMMAND"}
+{"input": "I TAKE LEFT", "task": "intent_classification", "label": "STATEMENT"}
+{"input": "NO", "task": "intent_classification", "label": "NEGATION"}
+{"input": "YES", "task": "intent_classification", "label": "CONFIRMATION"}
+{"input": "I GO HERE", "task": "intent_classification", "label": "STATEMENT"}
+{"input": "NO", "task": "intent_classification", "label": "NEGATION"}
+{"input": "YES", "task": "intent_classification", "label": "CONFIRMATION"}
+{"input": "I GO HERE", "task": "intent_classification", "label": "STATEMENT"}
+{"input": "YES", "task": "intent_classification", "label": "CONFIRMATION"}
+{"input": "I GO RIGHT", "task": "intent_classification", "label": "STATEMENT"}
+{"input": "YOU GO LEFT", "task": "intent_classification", "label": "COMMAND"}
+{"input": "NO", "task": "intent_classification", "label": "NEGATION"}
+{"input": "YES", "task": "intent_classification", "label": "CONFIRMATION"}
+{"input": "NO", "task": "intent_classification", "label": "NEGATION"}
+{"input": "NO", "task": "intent_classification", "label": "NEGATION"}
+{"input": "YES", "task": "intent_classification", "label": "CONFIRMATION"}
+{"input": "YOU GIVE", "task": "intent_classification", "label": "COMMAND"}
+{"input": "YES", "task": "intent_classification", "label": "CONFIRMATION"}
+{"input": "I TAKE RIGHT", "task": "intent_classification", "label": "STATEMENT"}
+{"input": "I GO HERE", "task": "intent_classification", "label": "STATEMENT"}
+{"input": "YES", "task": "intent_classification", "label": "CONFIRMATION"}
+{"input": "YES", "task": "intent_classification", "label": "CONFIRMATION"}
+{"input": "YOU GIVE", "task": "intent_classification", "label": "COMMAND"}
+{"input": "YES", "task": "intent_classification", "label": "CONFIRMATION"}
+{"input": "NO", "task": "intent_classification", "label": "NEGATION"}
+{"input": "YOU TAKE RIGHT", "task": "intent_classification", "label": "COMMAND"}
+{"input": "I GO LEFT", "task": "intent_classification", "label": "STATEMENT"}
+{"input": "NO", "task": "intent_classification", "label": "NEGATION"}
+{"input": "NO", "task": "intent_classification", "label": "NEGATION"}
+{"input": "YOU GO HERE", "task": "intent_classification", "label": "COMMAND"}
+{"input": "NO", "task": "intent_classification", "label": "NEGATION"}
+{"input": "YOU TAKE HERE", "task": "intent_classification", "label": "COMMAND"}
+{"input": "YOU TAKE HERE", "task": "intent_classification", "label": "COMMAND"}
+{"input": "NO", "task": "intent_classification", "label": "NEGATION"}
+{"input": "I GO HERE", "task": "intent_classification", "label": "STATEMENT"}
+{"input": "NO", "task": "intent_classification", "label": "NEGATION"}
+{"input": "YOU GO LEFT", "task": "intent_classification", "label": "COMMAND"}
+{"input": "NO", "task": "intent_classification", "label": "NEGATION"}
+{"input": "YOU TAKE LEFT", "task": "intent_classification", "label": "COMMAND"}
+{"input": "YES", "task": "intent_classification", "label": "CONFIRMATION"}
+{"input": "NO", "task": "intent_classification", "label": "NEGATION"}
+{"input": "YOU GO LEFT", "task": "intent_classification", "label": "COMMAND"}
+{"input": "I TAKE RIGHT", "task": "intent_classification", "label": "STATEMENT"}
+{"input": "YOU GO RIGHT", "task": "intent_classification", "label": "COMMAND"}
+{"input": "YES", "task": "intent_classification", "label": "CONFIRMATION"}
+{"input": "YES", "task": "intent_classification", "label": "CONFIRMATION"}
+{"input": "NO", "task": "intent_classification", "label": "NEGATION"}
+{"input": "YOU TAKE RIGHT", "task": "intent_classification", "label": "COMMAND"}
+{"input": "NO", "task": "intent_classification", "label": "NEGATION"}
+{"input": "YOU TAKE RIGHT", "task": "intent_classification", "label": "COMMAND"}
+{"input": "YES", "task": "intent_classification", "label": "CONFIRMATION"}
+{"input": "NO", "task": "intent_classification", "label": "NEGATION"}
+{"input": "NO", "task": "intent_classification", "label": "NEGATION"}
+{"input": "YOU TAKE RIGHT", "task": "intent_classification", "label": "COMMAND"}
+{"input": "YOU GO LEFT", "task": "intent_classification", "label": "COMMAND"}
+{"input": "I GO HERE", "task": "intent_classification", "label": "STATEMENT"}
+{"input": "I GO LEFT", "task": "intent_classification", "label": "STATEMENT"}
+{"input": "NO", "task": "intent_classification", "label": "NEGATION"}
+{"input": "YES", "task": "intent_classification", "label": "CONFIRMATION"}
+{"input": "I TAKE HERE", "task": "intent_classification", "label": "STATEMENT"}
+{"input": "I TAKE LEFT", "task": "intent_classification", "label": "STATEMENT"}
+{"input": "NO", "task": "intent_classification", "label": "NEGATION"}
+{"input": "YES", "task": "intent_classification", "label": "CONFIRMATION"}
+{"input": "YES", "task": "intent_classification", "label": "CONFIRMATION"}
+{"input": "YOU TAKE HERE", "task": "intent_classification", "label": "COMMAND"}
+{"input": "NO", "task": "intent_classification", "label": "NEGATION"}
+{"input": "NO", "task": "intent_classification", "label": "NEGATION"}
+{"input": "YES", "task": "intent_classification", "label": "CONFIRMATION"}
+{"input": "I GIVE", "task": "intent_classification", "label": "STATEMENT"}
+{"input": "I TAKE RIGHT", "task": "intent_classification", "label": "STATEMENT"}
+{"input": "YOU TAKE LEFT", "task": "intent_classification", "label": "COMMAND"}
+{"input": "I TAKE RIGHT", "task": "intent_classification", "label": "STATEMENT"}
+{"input": "YOU GO RIGHT", "task": "intent_classification", "label": "COMMAND"}
+{"input": "YES", "task": "intent_classification", "label": "CONFIRMATION"}
+{"input": "YES", "task": "intent_classification", "label": "CONFIRMATION"}
+{"input": "YOU GO LEFT", "task": "intent_classification", "label": "COMMAND"}
+{"input": "YOU GO RIGHT", "task": "intent_classification", "label": "COMMAND"}
+{"input": "YOU TAKE HERE", "task": "intent_classification", "label": "COMMAND"}
+{"input": "YOU GO HERE", "task": "intent_classification", "label": "COMMAND"}
+{"input": "NO", "task": "intent_classification", "label": "NEGATION"}
+{"input": "NO", "task": "intent_classification", "label": "NEGATION"}
+{"input": "YES", "task": "intent_classification", "label": "CONFIRMATION"}
+{"input": "I GO LEFT", "task": "intent_classification", "label": "STATEMENT"}
+{"input": "I GIVE", "task": "intent_classification", "label": "STATEMENT"}
+{"input": "NO", "task": "intent_classification", "label": "NEGATION"}
+{"input": "I GO LEFT", "task": "intent_classification", "label": "STATEMENT"}
+{"input": "YES", "task": "intent_classification", "label": "CONFIRMATION"}
+{"input": "NO", "task": "intent_classification", "label": "NEGATION"}
+{"input": "YES", "task": "intent_classification", "label": "CONFIRMATION"}
+{"input": "I TAKE RIGHT", "task": "intent_classification", "label": "STATEMENT"}
+{"input": "I TAKE RIGHT", "task": "intent_classification", "label": "STATEMENT"}
+{"input": "NO", "task": "intent_classification", "label": "NEGATION"}
+{"input": "YOU GO LEFT", "task": "intent_classification", "label": "COMMAND"}
+{"input": "NO", "task": "intent_classification", "label": "NEGATION"}
+{"input": "NO", "task": "intent_classification", "label": "NEGATION"}
+{"input": "I GO RIGHT", "task": "intent_classification", "label": "STATEMENT"}
+{"input": "I GO LEFT", "task": "intent_classification", "label": "STATEMENT"}
+{"input": "YES", "task": "intent_classification", "label": "CONFIRMATION"}
+{"input": "YES", "task": "intent_classification", "label": "CONFIRMATION"}
+{"input": "YOU TAKE LEFT", "task": "intent_classification", "label": "COMMAND"}
+{"input": "YOU GO LEFT", "task": "intent_classification", "label": "COMMAND"}
+{"input": "NO", "task": "intent_classification", "label": "NEGATION"}
+{"input": "I TAKE LEFT", "task": "intent_classification", "label": "STATEMENT"}
+{"input": "I TAKE HERE", "task": "intent_classification", "label": "STATEMENT"}
+{"input": "I GO LEFT", "task": "intent_classification", "label": "STATEMENT"}
+{"input": "NO", "task": "intent_classification", "label": "NEGATION"}
+{"input": "I TAKE LEFT", "task": "intent_classification", "label": "STATEMENT"}
+{"input": "YES", "task": "intent_classification", "label": "CONFIRMATION"}
+{"input": "NO", "task": "intent_classification", "label": "NEGATION"}
+{"input": "NO", "task": "intent_classification", "label": "NEGATION"}
+{"input": "YOU TAKE LEFT", "task": "intent_classification", "label": "COMMAND"}
+{"input": "YES", "task": "intent_classification", "label": "CONFIRMATION"}
+{"input": "YOU GO HERE", "task": "intent_classification", "label": "COMMAND"}
+{"input": "I GO RIGHT", "task": "intent_classification", "label": "STATEMENT"}
+{"input": "NO", "task": "intent_classification", "label": "NEGATION"}
+{"input": "YES", "task": "intent_classification", "label": "CONFIRMATION"}
+{"input": "YES", "task": "intent_classification", "label": "CONFIRMATION"}
+{"input": "YES", "task": "intent_classification", "label": "CONFIRMATION"}
+{"input": "YOU TAKE LEFT", "task": "intent_classification", "label": "COMMAND"}
+{"input": "YES", "task": "intent_classification", "label": "CONFIRMATION"}
+{"input": "I TAKE LEFT", "task": "intent_classification", "label": "STATEMENT"}
+{"input": "NO", "task": "intent_classification", "label": "NEGATION"}
+{"input": "YOU GO HERE", "task": "intent_classification", "label": "COMMAND"}
+{"input": "NO", "task": "intent_classification", "label": "NEGATION"}
+{"input": "YOU TAKE RIGHT", "task": "intent_classification", "label": "COMMAND"}
+{"input": "YOU TAKE HERE", "task": "intent_classification", "label": "COMMAND"}
+{"input": "I GO HERE", "task": "intent_classification", "label": "STATEMENT"}
+{"input": "I TAKE HERE", "task": "intent_classification", "label": "STATEMENT"}
+{"input": "YOU GO RIGHT", "task": "intent_classification", "label": "COMMAND"}
+{"input": "YES", "task": "intent_classification", "label": "CONFIRMATION"}
+{"input": "YOU GO RIGHT", "task": "intent_classification", "label": "COMMAND"}
+{"input": "I GO LEFT", "task": "intent_classification", "label": "STATEMENT"}
+{"input": "NO", "task": "intent_classification", "label": "NEGATION"}
+{"input": "YOU GO LEFT", "task": "intent_classification", "label": "COMMAND"}
+{"input": "NO", "task": "intent_classification", "label": "NEGATION"}
+{"input": "YES", "task": "intent_classification", "label": "CONFIRMATION"}
+{"input": "YES", "task": "intent_classification", "label": "CONFIRMATION"}
+{"input": "YOU TAKE HERE", "task": "intent_classification", "label": "COMMAND"}
+{"input": "YOU TAKE HERE", "task": "intent_classification", "label": "COMMAND"}
+{"input": "YES", "task": "intent_classification", "label": "CONFIRMATION"}

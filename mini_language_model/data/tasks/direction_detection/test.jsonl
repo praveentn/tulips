@@ -1,0 +1,30 @@
+{"input": "NO", "task": "direction_detection", "label": "NONE"}
+{"input": "GO RIGHT", "task": "direction_detection", "label": "RIGHT"}
+{"input": "YOU GO RIGHT", "task": "direction_detection", "label": "RIGHT"}
+{"input": "I GO RIGHT", "task": "direction_detection", "label": "RIGHT"}
+{"input": "YOU GO LEFT", "task": "direction_detection", "label": "LEFT"}
+{"input": "TAKE HERE", "task": "direction_detection", "label": "HERE"}
+{"input": "NO", "task": "direction_detection", "label": "NONE"}
+{"input": "GIVE", "task": "direction_detection", "label": "NONE"}
+{"input": "GIVE HERE", "task": "direction_detection", "label": "HERE"}
+{"input": "YOU GO LEFT", "task": "direction_detection", "label": "LEFT"}
+{"input": "LEFT", "task": "direction_detection", "label": "LEFT"}
+{"input": "GO HERE", "task": "direction_detection", "label": "HERE"}
+{"input": "I GO RIGHT", "task": "direction_detection", "label": "RIGHT"}
+{"input": "GO LEFT", "task": "direction_detection", "label": "LEFT"}
+{"input": "I GIVE", "task": "direction_detection", "label": "NONE"}
+{"input": "GO RIGHT", "task": "direction_detection", "label": "RIGHT"}
+{"input": "GO LEFT", "task": "direction_detection", "label": "LEFT"}
+{"input": "GIVE", "task": "direction_detection", "label": "NONE"}
+{"input": "TAKE", "task": "direction_detection", "label": "NONE"}
+{"input": "YOU TAKE", "task": "direction_detection", "label": "NONE"}
+{"input": "GO LEFT", "task": "direction_detection", "label": "LEFT"}
+{"input": "I GO RIGHT", "task": "direction_detection", "label": "RIGHT"}
+{"input": "TAKE LEFT", "task": "direction_detection", "label": "LEFT"}
+{"input": "TAKE LEFT", "task": "direction_detection", "label": "LEFT"}
+{"input": "GIVE", "task": "direction_detection", "label": "NONE"}
+{"input": "RIGHT", "task": "direction_detection", "label": "RIGHT"}
+{"input": "LEFT", "task": "direction_detection", "label": "LEFT"}
+{"input": "I GIVE", "task": "direction_detection", "label": "NONE"}
+{"input": "I GO HERE", "task": "direction_detection", "label": "HERE"}
+{"input": "HERE", "task": "direction_detection", "label": "HERE"}

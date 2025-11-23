@@ -1,0 +1,30 @@
+{"input": "GO LEFT", "task": "response_generation", "label": "YES"}
+{"input": "YOU GO RIGHT", "task": "response_generation", "label": "I_GO_RIGHT"}
+{"input": "YOU TAKE", "task": "response_generation", "label": "I_GIVE"}
+{"input": "I HERE", "task": "response_generation", "label": "SILENT"}
+{"input": "I GIVE", "task": "response_generation", "label": "YOU_TAKE"}
+{"input": "TAKE HERE", "task": "response_generation", "label": "YES"}
+{"input": "GO LEFT", "task": "response_generation", "label": "YES"}
+{"input": "YOU GO LEFT", "task": "response_generation", "label": "I_GO_LEFT"}
+{"input": "YOU GO RIGHT", "task": "response_generation", "label": "I_GO_RIGHT"}
+{"input": "YOU GO LEFT", "task": "response_generation", "label": "I_GO_LEFT"}
+{"input": "YOU TAKE", "task": "response_generation", "label": "I_GIVE"}
+{"input": "GIVE HERE", "task": "response_generation", "label": "NO"}
+{"input": "YOU GIVE", "task": "response_generation", "label": "I_TAKE"}
+{"input": "GIVE HERE", "task": "response_generation", "label": "NO"}
+{"input": "I TAKE", "task": "response_generation", "label": "YOU_GIVE"}
+{"input": "YOU GO LEFT", "task": "response_generation", "label": "I_GO_LEFT"}
+{"input": "GO RIGHT", "task": "response_generation", "label": "YES"}
+{"input": "TAKE HERE", "task": "response_generation", "label": "YES"}
+{"input": "GO LEFT", "task": "response_generation", "label": "YES"}
+{"input": "GO LEFT", "task": "response_generation", "label": "YES"}
+{"input": "YOU TAKE", "task": "response_generation", "label": "I_GIVE"}
+{"input": "TAKE HERE", "task": "response_generation", "label": "YES"}
+{"input": "YOU GIVE", "task": "response_generation", "label": "I_TAKE"}
+{"input": "I GIVE", "task": "response_generation", "label": "YOU_TAKE"}
+{"input": "I HERE", "task": "response_generation", "label": "SILENT"}
+{"input": "GO RIGHT", "task": "response_generation", "label": "YES"}
+{"input": "YOU TAKE", "task": "response_generation", "label": "I_GIVE"}
+{"input": "I TAKE", "task": "response_generation", "label": "YOU_GIVE"}
+{"input": "TAKE HERE", "task": "response_generation", "label": "YES"}
+{"input": "GIVE HERE", "task": "response_generation", "label": "NO"}

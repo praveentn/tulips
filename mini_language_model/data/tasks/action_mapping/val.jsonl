@@ -1,0 +1,29 @@
+{"input": "HERE", "task": "action_mapping", "label": "STAY"}
+{"input": "I GO RIGHT", "task": "action_mapping", "label": "MOVE_RIGHT"}
+{"input": "GO HERE", "task": "action_mapping", "label": "MOVE_HERE"}
+{"input": "YOU GO RIGHT", "task": "action_mapping", "label": "MOVE_RIGHT"}
+{"input": "I GO RIGHT", "task": "action_mapping", "label": "MOVE_RIGHT"}
+{"input": "YOU HERE", "task": "action_mapping", "label": "STAY"}
+{"input": "YOU GIVE", "task": "action_mapping", "label": "GIVE_ITEM"}
+{"input": "GO RIGHT", "task": "action_mapping", "label": "MOVE_RIGHT"}
+{"input": "YOU GO RIGHT", "task": "action_mapping", "label": "MOVE_RIGHT"}
+{"input": "GO RIGHT", "task": "action_mapping", "label": "MOVE_RIGHT"}
+{"input": "TAKE", "task": "action_mapping", "label": "TAKE_ITEM"}
+{"input": "TAKE HERE", "task": "action_mapping", "label": "TAKE_ITEM"}
+{"input": "I HERE", "task": "action_mapping", "label": "STAY"}
+{"input": "GO HERE", "task": "action_mapping", "label": "MOVE_HERE"}
+{"input": "YOU GO HERE", "task": "action_mapping", "label": "MOVE_HERE"}
+{"input": "I GO RIGHT", "task": "action_mapping", "label": "MOVE_RIGHT"}
+{"input": "YOU GO RIGHT", "task": "action_mapping", "label": "MOVE_RIGHT"}
+{"input": "GO HERE", "task": "action_mapping", "label": "MOVE_HERE"}
+{"input": "I GO HERE", "task": "action_mapping", "label": "MOVE_HERE"}
+{"input": "GO LEFT", "task": "action_mapping", "label": "MOVE_LEFT"}
+{"input": "I GO LEFT", "task": "action_mapping", "label": "MOVE_LEFT"}
+{"input": "YOU HERE", "task": "action_mapping", "label": "STAY"}
+{"input": "GO HERE", "task": "action_mapping", "label": "MOVE_HERE"}
+{"input": "TAKE", "task": "action_mapping", "label": "TAKE_ITEM"}
+{"input": "GO RIGHT", "task": "action_mapping", "label": "MOVE_RIGHT"}
+{"input": "YOU HERE", "task": "action_mapping", "label": "STAY"}
+{"input": "YOU HERE", "task": "action_mapping", "label": "STAY"}
+{"input": "I HERE", "task": "action_mapping", "label": "STAY"}
+{"input": "I GO HERE", "task": "action_mapping", "label": "MOVE_HERE"}
