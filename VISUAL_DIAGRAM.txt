@@ -1,0 +1,211 @@
+# Visual Learning Diagram 📊
+
+```
+═══════════════════════════════════════════════════════════════════════════
+                    HOW THE ADD/SUB MODEL LEARNS
+═══════════════════════════════════════════════════════════════════════════
+
+                            INPUT SENTENCE
+                                  │
+                         "YOU GO LEFT"
+                                  │
+                                  ▼
+                    ┌─────────────────────────────┐
+                    │   FEATURE EXTRACTION        │
+                    │   (Pattern Recognition)     │
+                    └─────────────────────────────┘
+                                  │
+                    ┌─────────────┴─────────────┐
+                    │                           │
+                    ▼                           ▼
+            ┌───────────────┐         ┌───────────────┐
+            │  UNIGRAMS     │         │  BIGRAMS      │
+            │               │         │               │
+            │  • YOU        │         │  • YOU GO     │
+            │  • GO         │         │  • GO LEFT    │
+            │  • LEFT       │         │               │
+            └───────────────┘         └───────────────┘
+                    │                           │
+                    └─────────────┬─────────────┘
+                                  │
+                                  ▼
+                    ┌─────────────────────────────┐
+                    │   PARAMETER LOOKUP          │
+                    │   (Score Tables)            │
+                    └─────────────────────────────┘
+                                  │
+        ┌─────────────────────────┼─────────────────────────┐
+        │                         │                         │
+        ▼                         ▼                         ▼
+┌──────────────┐        ┌──────────────┐        ┌──────────────┐
+│  COMMAND     │        │  STATEMENT   │        │ CONFIRMATION │
+│              │        │              │        │              │
+│ YOU:     +1  │        │ YOU:     -1  │        │ YOU:      0  │
+│ GO:       0  │        │ GO:       0  │        │ GO:       0  │
+│ LEFT:     0  │        │ LEFT:     0  │        │ LEFT:     0  │
+│ YOU_GO:  +1  │        │ YOU_GO:  -1  │        │ YOU_GO:   0  │
+│ GO_LEFT:  0  │        │ GO_LEFT:  0  │        │ GO_LEFT:  0  │
+│ ──────────── │        │ ──────────── │        │ ──────────── │
+│ TOTAL:   +2  │        │ TOTAL:   -2  │        │ TOTAL:    0  │
+└──────────────┘        └──────────────┘        └──────────────┘
+        │                         │                         │
+        └─────────────────────────┼─────────────────────────┘
+                                  │
+                                  ▼
+                    ┌─────────────────────────────┐
+                    │   PREDICTION (argmax)       │
+                    │                             │
+                    │   max(+2, -2, 0) = +2       │
+                    │                             │
+                    │   → COMMAND ✓               │
+                    └─────────────────────────────┘
+                                  │
+                                  ▼
+                    ┌─────────────────────────────┐
+                    │   CHECK IF CORRECT          │
+                    └─────────────────────────────┘
+                                  │
+                    ┌─────────────┴─────────────┐
+                    │                           │
+                ✓ CORRECT                   ✗ WRONG
+                    │                           │
+                    ▼                           ▼
+        ┌─────────────────────┐    ┌─────────────────────────┐
+        │  NO UPDATE          │    │  UPDATE PARAMETERS      │
+        │  (Already learned)  │    │                         │
+        └─────────────────────┘    │  For each feature:      │
+                                   │                         │
+                                   │  correct_label += 1     │
+                                   │  wrong_label -= 1       │
+                                   │                         │
+                                   │  Example:               │
+                                   │  params[YOU][TRUE] += 1 │
+                                   │  params[YOU][PRED] -= 1 │
+                                   └─────────────────────────┘
+                                               │
+                                               ▼
+                                  ┌─────────────────────────┐
+                                  │  PARAMETERS UPDATED     │
+                                  │  Model gets smarter!    │
+                                  └─────────────────────────┘
+
+═══════════════════════════════════════════════════════════════════════════
+                         LEARNING OVER TIME
+═══════════════════════════════════════════════════════════════════════════
+
+Example 1: "YOU GO LEFT" → COMMAND (correct by luck)
+┌────────────────────────────────────────────────────────────┐
+│ Feature      COMMAND  STATEMENT  CONFIRMATION              │
+│ ──────────   ───────  ─────────  ────────────              │
+│ YOU             0         0           0                     │
+│ GO              0         0           0       ← All zeros   │
+│ LEFT            0         0           0                     │
+└────────────────────────────────────────────────────────────┘
+
+Example 2: "I GO LEFT" → STATEMENT (wrong! predicted COMMAND)
+┌────────────────────────────────────────────────────────────┐
+│ Feature      COMMAND  STATEMENT  CONFIRMATION              │
+│ ──────────   ───────  ─────────  ────────────              │
+│ I              -1        +1          0                      │
+│ GO             -1        +1          0       ← Learning!    │
+│ LEFT           -1        +1          0                      │
+└────────────────────────────────────────────────────────────┘
+
+Example 3: "YOU GO LEFT" → COMMAND (wrong! predicted STATEMENT)
+┌────────────────────────────────────────────────────────────┐
+│ Feature      COMMAND  STATEMENT  CONFIRMATION              │
+│ ──────────   ───────  ─────────  ────────────              │
+│ YOU            +1        -1          0                      │
+│ I              -1        +1          0       ← Patterns     │
+│ GO              0         0          0       ← emerging!    │
+│ LEFT            0         0          0                      │
+└────────────────────────────────────────────────────────────┘
+
+After Many Examples:
+┌────────────────────────────────────────────────────────────┐
+│ Feature      COMMAND  STATEMENT  CONFIRMATION              │
+│ ──────────   ───────  ─────────  ────────────              │
+│ YOU            +5        -3          0                      │
+│ I              -3        +5          0       ← Clear        │
+│ GO              0         0          0       ← patterns!    │
+│ YES            -1         0         +2                      │
+│ NO             -1         0         +2                      │
+└────────────────────────────────────────────────────────────┘
+
+Key Insight:
+• "YOU" strongly associated with COMMAND (+5)
+• "I" strongly associated with STATEMENT (+5)
+• "GO" is ambiguous (balanced at 0)
+• "YES"/"NO" associated with CONFIRMATION (+2)
+
+═══════════════════════════════════════════════════════════════════════════
+                    WHY ADDITION-ONLY WORKS
+═══════════════════════════════════════════════════════════════════════════
+
+Traditional Neural Network:
+    output = Σ(weight_i × input_i) + bias
+             └─ MULTIPLICATION ─┘
+
+Our Model:
+    score = Σ(param[feature][label])
+            └── ADDITION ONLY ──┘
+
+Why it's equivalent:
+• Our "params" are like weights
+• Our features are binary (present/absent)
+• So multiplication by 1 or 0 is same as:
+  - Including the parameter (if feature present)
+  - Not including it (if feature absent)
+
+Example:
+    Traditional: weight_YOU × 1 + weight_GO × 1 + weight_LEFT × 1
+    Our model:   param[YOU] + param[GO] + param[LEFT]
+                           └──── Same result! ────┘
+
+═══════════════════════════════════════════════════════════════════════════
+                         PRACTICAL EXAMPLE
+═══════════════════════════════════════════════════════════════════════════
+
+Question: "Will 'YOU TAKE RIGHT' be classified as COMMAND?"
+
+Step 1: Extract features
+    • YOU
+    • TAKE  
+    • RIGHT
+    • YOU_TAKE
+    • TAKE_RIGHT
+
+Step 2: Look up scores (after training)
+    COMMAND:     YOU(+5) + TAKE(+2) + RIGHT(0) + YOU_TAKE(+3) = +10
+    STATEMENT:   YOU(-3) + TAKE(-1) + RIGHT(0) + YOU_TAKE(-2) = -6
+    CONFIRMATION: all zeros = 0
+
+Step 3: Pick highest
+    max(+10, -6, 0) = +10 → COMMAND ✓
+
+═══════════════════════════════════════════════════════════════════════════
+                            THE MAGIC
+═══════════════════════════════════════════════════════════════════════════
+
+    Machine Learning = Pattern Recognition + Counting + Feedback
+
+                            ┌─────────────┐
+                            │  PATTERNS   │ ← Extract features
+                            └──────┬──────┘
+                                   │
+                            ┌──────▼──────┐
+                            │  COUNTING   │ ← Score accumulation
+                            └──────┬──────┘
+                                   │
+                            ┌──────▼──────┐
+                            │  FEEDBACK   │ ← Update on errors
+                            └──────┬──────┘
+                                   │
+                            ┌──────▼──────┐
+                            │  LEARNING!  │ 🎉
+                            └─────────────┘
+
+    No fancy math required—just systematic adjustment of simple numbers!
+
+═══════════════════════════════════════════════════════════════════════════
+```

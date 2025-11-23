@@ -5,7 +5,7 @@ This model learns through:
 - Feature extraction (unigrams and bigrams)
 - Integer-valued parameter tables (scores)
 - Prediction via summation (add only) and argmax
-- Learning via ±1 updates (perceptron-like)
+- Learning via Â±1 updates (perceptron-like)
 
 NO matrix multiplication, NO dot products, NO standard neural network operations.
 """
@@ -13,6 +13,11 @@ NO matrix multiplication, NO dot products, NO standard neural network operations
 from typing import List, Dict, Tuple, Set, Optional
 from collections import defaultdict
 import json
+
+
+def _default_label_dict():
+    """Factory function for nested defaultdict - needed for pickle support."""
+    return defaultdict(int)
 
 
 class AddSubModel:
@@ -47,7 +52,7 @@ class AddSubModel:
         
         # Initialize parameters for each task
         for task_name, labels in task_labels.items():
-            self.params[task_name] = defaultdict(lambda: defaultdict(int))
+            self.params[task_name] = defaultdict(_default_label_dict)
         
         # Statistics for tracking
         self.update_count = 0
@@ -135,7 +140,7 @@ class AddSubModel:
         """
         Update model parameters based on prediction error.
         
-        Update rule (±1 ONLY):
+        Update rule (Â±1 ONLY):
         - If prediction is wrong:
             - For each feature in the input:
                 - INCREMENT (+1) the score for (feature, true_label)
@@ -165,7 +170,7 @@ class AddSubModel:
         # Get task-specific parameters
         task_params = self.params[task_name]
         
-        # Update each feature (±1 operations only)
+        # Update each feature (Â±1 operations only)
         updates_made = 0
         for feature in features:
             # Increase score for correct label
@@ -249,7 +254,7 @@ class AddSubModel:
             return
         
         self.task_labels[task_name] = labels
-        self.params[task_name] = defaultdict(lambda: defaultdict(int))
+        self.params[task_name] = defaultdict(_default_label_dict)
         print(f"Added new task: {task_name} with {len(labels)} labels")
     
     def get_stats(self) -> Dict:
@@ -354,7 +359,7 @@ if __name__ == "__main__":
     print("\nTraining on examples:")
     for word_indices, task, label in examples:
         pred, correct, updates = model.train_on_example(word_indices, task, label)
-        status = "✓" if correct else "✗"
+        status = "âœ“" if correct else "âœ—"
         print(f"  {status} Input: {word_indices}, True: {label}, Pred: {pred}, Updates: {updates}")
     
     print(f"\n{model}")
